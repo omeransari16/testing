@@ -33,6 +33,7 @@ namespace Tutorial4Ex2
             Customer Cust1 = new Customer(1, "John Doe", "john.doe@example.com", 19);
             Customer Cust2 = new Customer(2, "Jane Smith", "jane.smith@example.com", 9);
             Customer Cust3 = new Customer(3, "Alex Kim", "alex.kim@example.com", 15);
+            Customer Cust4 = new Customer(4, "Alex Kim", "aledx.kims@example.com", 16);
 
             // Only display customers younger than 10
             if (Cust1.Age < 10) Print(Cust1);
